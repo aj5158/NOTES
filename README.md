@@ -22,6 +22,16 @@ git commit -a
 git status
 git push origin master
 
+
+Add new Repo From command line
+mkdir <repo name>
+echo "# RepoName" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/aj5158/My-Bash.git
+git push -u origin master
+
 ```
 
 ### Stash/BitBucket good Readme
