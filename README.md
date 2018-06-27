@@ -14,6 +14,14 @@ git config --global user.email "user@example.com"
 git clone https://github.com/aj5158/RepoName.git
 
 git remote show origin (ensure you are in the repo dir and .git file exists)
+
+typically
+git add (file or --all)
+git status
+git commit -a
+git status
+git push origin master
+
 ```
 
 ### Stash/BitBucket good Readme
