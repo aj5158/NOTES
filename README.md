@@ -3,12 +3,17 @@
 
 ## GIT
 ```
+Gitting started :)
+
+My MAC all repos for GitHub  at cd ~/GIT/GITHUB/
+
 git --version
 git config -l
 git config --global user.name "aj5158"
 git config --global user.email "user@example.com"
+git clone https://github.com/aj5158/RepoName.git
 
-git remote show origin
+git remote show origin (ensure you are in the repo dir and .git file exists)
 ```
 
 ### Stash/BitBucket good Readme
