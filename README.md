@@ -1,21 +1,23 @@
 # NOTES
-# Just Notes on Env Setup etc
+## Just Notes on Env Setup etc
 
-# GIT
+## GIT
+"""
 git --version
 git config -l
 git config --global user.name "aj5158"
 git config --global user.email "user@example.com"
 
 git remote show origin
+"""
 
-# Stash/BitBucket good Readme
+### Stash/BitBucket good Readme
 https://www.atlassian.com/git
 
 
-# HOMEBREW
-# OSX application package manager (cf apt-get or yum)
-
+## HOMEBREW
+### OSX application package manager (cf apt-get or yum)
+"""
 NOTE: 
 existing MAC OSX packages like sqlite, openssl etc when installed via brew are not symlinked into /usr/local
 
@@ -29,7 +31,7 @@ Installed in ...
 /usr/local/etc/bash_completion.d/brew
 /usr/local/Homebrew
 
-# use 
+use 
 "brew install <package>"
 brew install python3
 brew upgrade python2
@@ -39,10 +41,11 @@ brew help
 
 # Opt out of analytics
 brew analytics off
-  
+"""  
 
-# PYTHON ENVIRONMENT
-# OSX
+## PYTHON ENVIRONMENT
+### OSX
+"""
 Get PIP
   python2 get-pip.py
   python3 get-pip.py
@@ -54,7 +57,6 @@ To upgrade
 
 # Virtual Env
 sudo pip install virtualenv
-
 
 
 # API
@@ -72,3 +74,4 @@ brew cask install postman         # Install the given cask.
 brew cask cleanup                 # For all installed or specific casks, remove any older versions from the cellar.
 brew cleanup                      # For all installed or specific formulae, remove any older versions from the cellar.
 # Visit https://www.code2bits.com
+"""
