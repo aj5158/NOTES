@@ -4,6 +4,7 @@ First line, just set to bash found in your environment variable (run "$PATH" so 
 or run "which bash" then set "!<path to bash>" eg "!/bin/bash"
 
 
-!/usr/bin/env bash
+#!/usr/bin/env bash
+#foo
 ```
 
